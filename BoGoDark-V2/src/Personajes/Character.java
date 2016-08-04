@@ -26,13 +26,13 @@ public class Character {
         
     public Character(String name){
         this.name = name;
-        this.life = 100;
-        this.damage = 10;
-        this.defense = 20;
-        this.level = 1;
-        this.exp = 0;
+        this.life = 100;//+20
+        this.damage = 10;//+5
+        this.defense = 20;//+5
+        this.level = 1;//+1
+        this.exp = 0;//0-100 y se reinicial al completarla
         this.turno = false;
-                }
+    }
 
     public String getName() {
         return name;
